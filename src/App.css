@@ -10,6 +10,9 @@
 }
 
 .pointHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #f2f2f2;
   padding: 8px 15px;
   cursor: pointer;
@@ -28,14 +31,43 @@
   margin-bottom: 5px;
 }
 
+.pointContent h4 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
 .inputWrapper {
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-start;
   margin-bottom: 10px;
-  margin-right: 20px;
+  margin-left: 20px;
+  width: 100%;
 }
 
 .inputWrapper input {
   margin-top: 5px;
+  border: none;
+  background-color: #f2f2f2;
+  padding: 5px 7px;
+  min-width: 200px;
+}
+
+.videosContent {
+  padding-left: 20px;
+}
+
+.bottomWrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 10px 18px;
+  margin: 0 10px;
+  border: none;
+  background-color: #f2f2f2;
 }
